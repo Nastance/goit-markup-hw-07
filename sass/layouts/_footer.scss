@@ -1,0 +1,45 @@
+footer {
+  background-color: $footer-bacground-color;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &-social-networks {
+    display: flex;
+    width: 206px;
+    justify-content: space-between;
+    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  }
+}
+
+.address {
+  color: $primary-white-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  margin-top: 8px;
+}
+.contacts {
+  color: $secondary-footer-text-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  margin-top: 9px;
+}
+
+.subscribe-title {
+  color: $primary-white-color;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
